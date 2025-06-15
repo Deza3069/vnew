@@ -16,11 +16,12 @@ def start_panel(_):
 def private_panel(_):
     buttons = [
         [
-           InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="dev")
+            InlineKeyboardButton(text=_["S_B_3"],url=f"https://t.me/{app.username}?startgroup=true",)
         ],
 
         [
-            InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="GSONG_CP")
+            InlineKeyboardButton(text=_["S_B_4"], callback_data="MAIN_CP"),
+            InlineKeyboardButton(text="ᴀɴɪᴍᴇ", callback_data="anime_back"),
         ],
     ]
     return buttons
