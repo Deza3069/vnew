@@ -11,10 +11,10 @@ API_ID = 25695415
 API_HASH = "38a4b64f718fbe909cb54d083a7d1d46"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "7651510468:AAG_sEZ7LwyvyrbLfFtxgmhy95yhqIpUjcA"
+BOT_TOKEN = "8132633011:AAEnegimclXR5Lzfjt_BV296fLkwNrUd2bI"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://vc:aizen@cluster0.px9pzr2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = "mongodb+srv://Aizen:Music@cluster0.dlbqwkc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
@@ -44,7 +44,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/soul_x_network")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/soul_x_society")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "100"))
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "200"))
 
 # MaximuM limit for fetching playlist's track from youtube, spotify, apple links.
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "100"))
@@ -86,7 +86,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = "BQGIFLcAAvZljJnP2zhyYNaFi0M9-80sbaZs_9CvUuidlEBEIdBtGpDR8nkpE_XNOgqFCkCzpQSl_MMrvk6LMFUl8BNnLRzdNLD2fWWYy-lk7jOpfQIzzEVp3EG5_qMbqznJ5ixlFfEN2lOovq_f1UCMIXISyUhwp9l6sox_mVe1fko-YYLGEPJKJ41sHiOsbjhXNW_583B4l9POQuH8zT0bTR01QdSgU0VnHi5vH2WUUWxP5RoW6j7u-XYcxgQ-JJ7CpKwfN-4Sb2Lmghr2WEw1Ad2e6SvnxiyBfrpUXpcndw9teb60e9WfmRuB_Vuxev7y52HrC-eIhiGAkUyE4QX_9AvvFAAAAABhHF7cAA"
+STRING1 = "BQGIFLcAqC950UiEmrluPug1EKpD-teLy8ktT-GvlfdDzmioPDu2VFZ2eh76HX2Q_z428tV5suCTyMMrA3YF4VFaRuPfVY077m9XXwCDtF6NZRWdBWfEWdqz2HGs9hosnRiDxo8iT1sT0l4ESuX5otRyp3UIy7u9qdKzRlRd4YNwlgWJYR7rosTPxWGjJHd2mE13y4IN8KcHd7AqyEY-7U8DGrhgeOjB4N1eDBgGAFeW4_6si7-4pg5Vglzp7ovfqYHp8zIoRE72-Tasm2CUZ0FKAb6klSiGyyU6BsVkMrINoYxrBeyK8_gREeVk5AujOZT3DiCFzlB_H41_I40DNwVaESbvwQAAAAFbEJlKAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
