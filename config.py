@@ -11,7 +11,7 @@ API_ID = 25695415
 API_HASH = "38a4b64f718fbe909cb54d083a7d1d46"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "8132633011:AAEnegimclXR5Lzfjt_BV296fLkwNrUd2bI"
+BOT_TOKEN = "8132633011:AAGUusHOzTHMvidcocZJ6iIZTPxOGQyjKU8"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://Aizen:Music@cluster0.dlbqwkc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
